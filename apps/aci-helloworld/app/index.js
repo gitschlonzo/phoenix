@@ -26,6 +26,6 @@ app.get('/ping', (req, res) => {
 });
 
 var listener = app.listen(process.env.PORT || 80, function() {
- console.log('listening on port ' + listener.address().port);
+ console.log('listening on porti ' + listener.address().port);
 });
 
